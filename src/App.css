@@ -1,0 +1,56 @@
+main {
+  width: 40rem;
+  height: 15rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 20px;
+
+  margin: auto;
+
+}
+
+.botao-sortear {
+  height: 3rem;
+  width: 4rem;
+  border: solid #000000;
+  border-radius: 20px;
+  box-shadow: 0px 0px 0px 1px #000000;
+
+}
+
+.botao-sortear:hover {
+  transform: scale(10);
+  cursor: pointer;
+  transition: 0.05s ease-in-out;
+  color: #fff;
+  background-color: #000000;
+}
+
+.botao-sortear:not(hover) {
+  background-color: #fff;
+  cursor: pointer;
+  transition: 0.05s ease-in-out;
+}
+
+.botao-sortear:focus {
+  transform: scale(1.2);
+  cursor: pointer;
+  color: #fff;
+  background-color: #000000;
+}
+
+.botao-sortear:active {
+  background-color: rgb(203, 203, 203);
+  border: rgb(203, 203, 203);
+  ;
+}
+
+footer {
+  background-color: aliceblue;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
